@@ -1,0 +1,21 @@
+{
+  "name": "keepalive-pinger",
+  "version": "1.0.0",
+  "description": "Uptime pinger server to keep Render apps awake",
+  "main": "keepalive.js",
+  "scripts": {
+    "start": "node keepalive.js"
+  },
+  "keywords": [
+    "keepalive",
+    "render",
+    "pinger",
+    "uptime"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.3.1"
+  }
+}
